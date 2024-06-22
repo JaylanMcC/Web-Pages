@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W6 Assignment: Web Pages</title>
+    <style>
+        /* Basic styles for the page */
+        body {
+            font-family: Verdana, sans-serif;
+            background-color: #e0f7fa; /* Light cyan background */
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #0cfade; /* Teal background for header and footer */
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 10px 0;
+        }
+        main {
+            padding: 20px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        .content-section {
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            color: #00796b; /* Matching the header and footer color */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>W6 Assignment: Web Pages</h1>
+    </header>
+
+    <!-- Main content section -->
+    <main>
+        <!-- Introduction section -->
+        <section class="content-section">
+            <h2>Introduction</h2>
+            <p>This is my W6 Assignment where I learned about creating web pages using HTML. Below are some examples of what I have learned.</p>
+        </section>
+
+
+        <!-- List section -->
+        <section class="content-section">
+            <h2>HTML Basics</h2>
+            <ul>
+                <li>HTML is the standard markup language for creating web pages.</li>
+                <li>HTML elements are the building blocks of HTML pages.</li>
+                <li>Each HTML element is defined by a start tag and often an end tag.</li>
+                <li>Web browsers read HTML files and render them as web pages.</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 W6 Assignment. Created by Jaylan M.</p>
+    </footer>
+</body>
+</html>
